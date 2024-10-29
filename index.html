@@ -144,6 +144,24 @@
 </div>
 
 <div class="container countdown-container">
+  
+     <!-- CountdCountdow BUP --->
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card text-center">
+            <div class="card-header">
+                BUP
+            </div>
+            <div class="sub-card-header">
+ 13 & 14 December,2024 
+</div>            
+            <div class="card-body">
+                <div id="flipdown4" class="flipdown"></div>
+                <button class="btn btn-custom mt-3">Details </button>
+            </div>
+        </div>
+    </div>
+  
+  
     <!-- Countdown for February 1, 2025 -->
     <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
         <div class="card text-center">
@@ -304,20 +322,9 @@
 
 
 
-    <!-- Countdown for February 11, 2025 
-    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-        <div class="card text-center">
-            <div class="card-header">
-                February 11, 2025
-            </div>
-            <div class="card-body">
-                <div id="flipdown4" class="flipdown"></div>
-                <button class="btn btn-custom mt-3">Details </button>
-            </div>
-        </div>
-    </div>
+ 
 
-     Countdown for February 14, 2025 
+  <!---   Countdown for February 14, 2025 
     <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
         <div class="card text-center">
             <div class="card-header">
@@ -365,7 +372,7 @@ document.addEventListener('DOMContentLoaded', () => {
         new Date('2025-02-01T00:00:00').getTime() / 1000,
         new Date('2025-02-08T00:00:00').getTime() / 1000,
         new Date('2025-02-14T00:00:00').getTime() / 1000,
-   //     new Date('2025-02-11T00:00:00').getTime() / 1000,
+        new Date('2024-12-13T00:00:00').getTime() / 1000,
    //     new Date('2025-02-14T00:00:00').getTime() / 1000
     ];
 
@@ -373,11 +380,13 @@ document.addEventListener('DOMContentLoaded', () => {
         new FlipDown(countdownDates[0], 'flipdown1').start(),
         new FlipDown(countdownDates[1], 'flipdown2').start(),
         new FlipDown(countdownDates[2], 'flipdown3').start(),
-  //      new FlipDown(countdownDates[3], 'flipdown4').start(),
+     new FlipDown(countdownDates[3], 'flipdown4').start(),
   //      new FlipDown(countdownDates[4], 'flipdown5').start()
     ];
 
 const quotes = [
+  "নাইট্রেট অ্যানায়নে  ইলেকট্রন রয়েছে - 32টি [CU-A: 22-23]",
+"ডিউটেরিয়ামে নিউট্রনের সংখ্যা - 1টি  [CU-A: 21-22]",
   "IUPAC পদ্ধতিতে CH3-CH(CH3)-CH2-C(CH3)(OH)-CH2-CH3 যৌগটির নাম - 3,5 ডাইমিথাইল হেক্সানল-3  [GST-A:23-24]",
   "ইউরিয়া সার উৎপাদনে অন্তর্বর্তী উৎপাদ হলো - H2NCOONH4 [RU-C: 19-20]",
     "কোন বস্তুর ভর 10 kg হলে পৃথিবীর কেন্দ্রে বস্তুটির ওজন- 0(শূন্য) N [CU: 21-22]",
