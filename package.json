@@ -1,2 +1,11 @@
-npm init -y
-npm install ws
+{
+  "name": "my-chat-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.5.0"
+  }
+}
