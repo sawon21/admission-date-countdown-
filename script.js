@@ -1,5 +1,4 @@
-let socket = new WebSocket('ws://localhost:8080');
-
+let socket = new WebSocket('wss://chating-app-2.onrender.com');
 socket.onopen = function() {
     console.log('Connected to the WebSocket server');
 };
